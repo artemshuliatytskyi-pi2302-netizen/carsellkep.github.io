@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Автопарк — Car Zone</title>
+<meta name="description" content="Каталог авто для оренди з фільтром за маркою: BMW, Mercedes-Benz, Porsche, Audi, Corvette, Dodge, Tesla, Xiaomi, Li Auto.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body data-page="cars">
+<div class="pre" id="pre"><span>Car Zone</span></div>
+<header class="header"></header>
+<main>
+<section class="section"><h1>Оберіть авто</h1>
+<div class="filters"><label class="sr" for="q">Пошук за моделлю</label><input id="q" type="search" placeholder="Пошук моделі…"><div id="brands" class="chips" role="group" aria-label="Марка"></div></div>
+<div class="grid3" id="cars" aria-live="polite"></div></section>
+</main>
+<footer class="footer"></footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Zone — оренда автомобілів преміум-класу</title>
+<meta name="description" content="Оренда авто BMW, Mercedes, Porsche, Tesla, Xiaomi та інших брендів. Оберіть авто, забронюйте онлайн.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body data-page="index">
+<div class="pre" id="pre"><span>Car Zone</span></div>
+<header class="header"></header>
+<main>
+<section class="hero"><div class="hero-in">
+<div class="hero-text"><h1>Найкраще в оренді та сервісі авто</h1>
+<p>Від німецької класики до китайських електрокарів: 9 брендів, прозорі ціни та бронювання за хвилину.</p>
+<a class="btn" href="cars.html">Обрати авто</a></div>
+<div class="hero-car" aria-hidden="true"><svg viewBox="0 0 600 250" role="img" aria-label="Спортивне купе">
+<defs><linearGradient id="bd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8cc4ff"/><stop offset=".35" stop-color="#2f8cff"/><stop offset=".8" stop-color="#0f3f94"/><stop offset="1" stop-color="#061c44"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3f2ff"/><stop offset="1" stop-color="#16315c"/></linearGradient>
+<radialGradient id="rim"><stop offset="0" stop-color="#f4f9ff"/><stop offset="1" stop-color="#5d7088"/></radialGradient>
+<filter id="bl"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<ellipse cx="300" cy="223" rx="255" ry="8" fill="#0a1a2f" opacity=".3" filter="url(#bl)"/>
+<path d="M36 176C32 160 36 148 52 142L150 128C190 100 240 82 300 80C340 78 372 82 392 92L452 124L540 134C562 138 574 150 576 166L576 184L36 184Z" fill="url(#bd)"/>
+<path d="M158 127C196 102 242 90 300 89C340 88 370 92 388 100L438 126Z" fill="url(#gl)"/>
+<path d="M300 89V126M158 127L438 126" stroke="#0f3f94" stroke-width="3"/>
+<path d="M60 150C200 141 400 141 560 154" stroke="#fff" stroke-opacity=".4" stroke-width="3" fill="none"/>
+<path d="M300 130V176" stroke="#04132c" stroke-opacity=".5" stroke-width="2"/><path d="M312 142h20" stroke="#cfe8ff" stroke-width="3" stroke-linecap="round"/>
+<path d="M70 177H550" stroke="#04132c" stroke-width="6" stroke-linecap="round"/>
+<path d="M546 138C560 142 568 148 570 154L548 151Z" fill="#fff"/><path d="M38 150L52 146V157L38 159Z" fill="#ff3b3b"/>
+<circle cx="130" cy="182" r="46" fill="#04132c"/><circle cx="130" cy="182" r="40" fill="#06101d"/><circle cx="130" cy="182" r="28" fill="url(#rim)"/><g class="spin"><path d="M130 182L152.0 182.0" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><path d="M130 182L136.8 202.9" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><path d="M130 182L112.2 194.9" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><path d="M130 182L112.2 169.1" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><path d="M130 182L136.8 161.1" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><circle cx="130" cy="182" r="6" fill="#0a1a2f"/></g><circle cx="470" cy="182" r="46" fill="#04132c"/><circle cx="470" cy="182" r="40" fill="#06101d"/><circle cx="470" cy="182" r="28" fill="url(#rim)"/><g class="spin"><path d="M470 182L492.0 182.0" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><path d="M470 182L476.8 202.9" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><path d="M470 182L452.2 194.9" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><path d="M470 182L452.2 169.1" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><path d="M470 182L476.8 161.1" stroke="#8fa3b8" stroke-width="5" stroke-linecap="round"/><circle cx="470" cy="182" r="6" fill="#0a1a2f"/></g></svg></div>
+</div></section>
+<section class="section orange"><h2>Чому обирають нас?</h2>
+<div class="grid3">
+<article class="card-o reveal"><h3>Онлайн-бронювання</h3><p>Оберіть авто, дати та надішліть заявку без дзвінків.</p></article>
+<article class="card-o reveal r"><h3>Технічний супровід</h3><p>Кожне авто проходить перевірку перед видачею.</p></article>
+<article class="card-o reveal"><h3>Повний сервіс</h3><p>Страхування, чищення та підтримка 24/7.</p></article>
+</div></section>
+<section class="section"><h2>Обрані авто</h2><div class="grid3" id="featured"></div>
+<p class="center"><a class="btn" href="cars.html">Весь автопарк</a></p></section>
+<section class="section dark"><div class="stats">
+<div><b data-count="9">0</b><span>брендів</span></div><div><b data-count="120">0</b><span>авто в автопарку</span></div><div><b data-count="2400">0</b><span>задоволених клієнтів</span></div></div></section>
+</main>
+<footer class="footer"></footer>
+</body>
+</html>
